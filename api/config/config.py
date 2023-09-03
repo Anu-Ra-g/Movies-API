@@ -19,10 +19,7 @@ class DevConfig(Config):
 
 
 class TestConfig(Config):
-    TESTING=True
-    SQLALCHEMY_ECHO=True  
-    SQLALCHEMY_DATABASE_URI='sqlite://'  
-    SQLALCHEMY_TRACK_MODIFICATIONS=False
+    pass
 
 
 class ProdConfig(Config):
