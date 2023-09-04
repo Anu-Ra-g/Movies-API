@@ -16,7 +16,7 @@ This is a REST API resembling a movie database same as IMDb. The data about the 
 
 - `POST /auth/signup`  
 - `POST /auth/login`  
-- `POST /auth/refresh` 🔒 
+- `POST /auth/refresh` 🔒 (refresh token)
 - `GET /movies/allmovies`
 - `POST /movies/movie` 🔒 
 - `PUT /movies/movie/{movie_id}` 🔒 
@@ -34,7 +34,7 @@ This is a REST API resembling a movie database same as IMDb. The data about the 
 4. Run the command <br>
     `python runserver.py`
 
-Activating the virtual environment, will make the app run with all the necessary packages. On, running the command, the development server will be activated, running at `localhost:5000`. The URL will present an UI, made with the help of Swagger UI. Here you can make the HTTP requests to the endpoints. 
+Activating the virtual environment, will make the app run with all the necessary packages. On, running the command, the development server will be activated, running at `localhost:5000`. The URL will present an UI, made with the help of Swagger UI. Here you can make the HTTP requests to the endpoints. It will look like this
 
 ![alt text for image](/Swagger.png)
 
