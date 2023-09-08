@@ -1,8 +1,7 @@
-# beyondcc assignment
 
 ## Description
 
-This is a REST API resembling a movie database same as IMDb. The data about the movies is stored in a sqlite database that is already present in this repository under **/api/database/db.sqlite3**. This database is already populated with the data that was provided. But the code can generate a new sqlite database, on running the code if the database doesn't already exist. The repository also includes the SQL statments necessary to populate the database, which is present here **/sql/movie_data.sql**. The database schema includes *users*, *movies* and *genres* tables. The venv contains the necessary packages needed to run the folder. The API is documented with Swagger. The API uses ***JWT authentication*** for user authenication. 
+This is a REST API resembling a movie database same as IMDb. The data about the movies is stored in a SQLite database that is already present in this repository under **/api/database/db.sqlite3**. This database is already populated with the data that was provided. But the code can generate a new SQLite database, on running the code if the database doesn't already exist. The repository also includes the SQL statements necessary to populate the database, which is present here **/sql/movie_data.sql**. The database schema includes *users*, *movies*, and *genres* tables. The venv contains the necessary packages needed to run the folder. The API is documented with Swagger. The API uses ***JWT authentication*** for user authentication. 
 
 **Packages used for this project**
 - Flask
